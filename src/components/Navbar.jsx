@@ -1,9 +1,11 @@
 function Navbar() {
   return (
-    <nav>
-      <h2>OfferOrbit 🚀</h2>
+    <nav className="navbar">
+      <div className="logo">
+        OfferOrbit 🚀
+      </div>
 
-      <div>
+      <div className="nav-buttons">
         <button>Dashboard</button>
         <button>Profile</button>
       </div>

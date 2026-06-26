@@ -1,6 +1,6 @@
 function StatsCard({ number, title }) {
   return (
-    <div>
+    <div className="stats-card">
       <h2>{number}</h2>
       <p>{title}</p>
     </div>

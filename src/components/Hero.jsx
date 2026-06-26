@@ -1,10 +1,11 @@
 function Hero(props) {
   return (
-    <section>
+    <section className="hero">
       <h1>{props.title}</h1>
 
       <p>{props.subtitle}</p>
-      <h3>{props.goal}</h3>
+
+      <p className="goal">{props.goal}</p>
     </section>
   );
 }
